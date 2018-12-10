@@ -1,1 +1,11 @@
-
+dzielna = float(input("Jaka jest dzielna?"))
+print("Czyli dzielna to", dzielna)
+dzielnik = float(input("Jaki jest dzielnik?"))
+while(dzielnik==0):
+    dzielnik = float(input("Podaj liczbe jeszcze raz: "))
+print("tak,ta liczba jest wieksza od zera")
+if dzielnik!= 0:
+    print("Wynik:")
+    print(int(dzielna/dzielnik))
+    print("Reszta:")
+    print(dzielna%dzielnik)
